@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
-const navigation = [
+const navigation: { name: string; href: string }[] = [
   // { name: "Product", href: "#" },
   // { name: "Features", href: "#" },
   // { name: "Marketplace", href: "#" },

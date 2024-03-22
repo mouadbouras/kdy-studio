@@ -49,7 +49,7 @@ export default function Index() {
             }}
           />
         </div>
-        <div className="relative isolate pt-48">
+        <div className="relative isolate pt-48 overflow-hidden">
           <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
               <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
@@ -73,7 +73,8 @@ export default function Index() {
                     Book now
                   </ScrollLink>
                   <Link
-                    href="phone:438-778-6931"
+                    target="_blank"
+                    href="https://www.facebook.com/nik.bouabid"
                     className="text-sm font-semibold leading-6 text-gray-900"
                   >
                     Contact us <span aria-hidden="true">→</span>

@@ -38,7 +38,7 @@ export default function Booking() {
       </div>
       {booking == null && (
         <Cal
-          calOrigin="http://localhost:3000"
+          calOrigin="https://cal.mbcubeconsulting.ca"
           calLink="kdystudios/studio"
         ></Cal>
       )}
